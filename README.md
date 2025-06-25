@@ -1,4 +1,7 @@
 # vClear-Clean-Unused-Vehicles-FiveM-Vanilla
+
+SKRYPT JEST PO POLSKU
+
 **vClear** is a lightweight and effective admin utility for FiveM that removes unused vehicles from the map with a single command.
 
 - vClear is a lightweight and effective admin utility for FiveM that removes unused vehicles from the map with a single command.
