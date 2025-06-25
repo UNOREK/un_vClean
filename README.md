@@ -15,11 +15,11 @@ SKRYPT JEST PO POLSKU
 
  Installation
 
-1. Drop the `vclear` folder into your `resources` directory  
+1. Drop the `un_vClear` folder into your `resources` directory  
 2. Add the following lines to your `server.cfg`:
 
 ```
-ensure vclear
+ensure un_vClear
 add_ace group.admin command.vclear allow
 add_principal identifier.steam:yourSteamID group.admin
 ```
