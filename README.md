@@ -1,22 +1,27 @@
-# vClear-Clean-Unused-Vehicles-FiveM-Vanilla
+# vClear — Usuwanie nieużywanych pojazdów (FiveM Vanilla)
 
-SKRYPT JEST PO POLSKU
+Skrypt w pełni po polsku
 
-**vClear** is a lightweight and effective admin utility for FiveM that removes unused vehicles from the map with a single command.
+**vClear** to lekki i skuteczny skrypt administracyjny dla serwerów FiveM, który pozwala na usunięcie nieużywanych pojazdów z mapy za pomocą jednej komendy:
 
-- vClear is a lightweight and effective admin utility for FiveM that removes unused vehicles from the map with a single command.
-- Works on both *vanilla FiveM* servers and those running Qbox/QBCore/OneSync  
-- Triggers from in-game or server console  
-- Sends a chat message showing how many vehicles were removed  
-- Uses server-side native functions for full compatibility  
-- No external dependencies — simple drag-and-drop setup
+```
+/vclear
+```
+
+## Główne funkcje
+
+- Działa na serwerach *vanilla FiveM*
+- Obsługuje komendy z poziomu gry oraz konsoli serwera  
+- Wyświetla w czacie informację o liczbie usuniętych pojazdów  
+- Działa w całości po stronie serwera — bez obciążenia klientów  
+- Brak zewnętrznych zależności — prosta instalacja typu "wrzuć i uruchom"
 
 ---
 
- Installation
+## Instalacja
 
-1. Drop the `un_vClear` folder into your `resources` directory  
-2. Add the following lines to your `server.cfg`:
+1. Skopiuj folder `un_vClear` do katalogu `resources`  
+2. W pliku `server.cfg` dodaj:
 
 ```
 ensure un_vClear
@@ -24,16 +29,17 @@ add_ace group.admin command.vclear allow
 add_principal identifier.steam:yourSteamID group.admin
 ```
 
- Replace `yourSteamID` with your actual Steam identifier (e.g. `steam:11000010abc1234`)
+Zamień `yourSteamID` na swój identyfikator Steam (np. `steam:11000010abc1234`)
 
-3. Restart your server and use `/vclear` in-game or from console.
+3. Zrestartuj serwer i użyj komendy `/vclear` w grze lub konsoli
 
 ---
 
-  Use Cases
+## Zastosowania
 
-- Clear abandoned or unused vehicles across the map  
-- Reduce lag during peak hours  
-- Clean up before restarts  
-- Create a fast admin utility with room to expand
+- Usuwanie porzuconych lub nieużywanych pojazdów z całej mapy  
+- Redukcja lagów w godzinach szczytu  
+- Porządkowanie stanu serwera przed restartem  
+- Prosty punkt wyjścia do dalszej rozbudowy narzędzi administracyjnych
 
+---
