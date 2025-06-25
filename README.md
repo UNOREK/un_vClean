@@ -20,7 +20,7 @@ Skrypt w pełni po polsku
 
 ## Instalacja
 
-1. Skopiuj folder `un_vClear` do katalogu `resources`  
+1. Skopiuj folder `un2_vClear` do katalogu `resources`  
 2. W pliku `server.cfg` dodaj:
 
 ```
